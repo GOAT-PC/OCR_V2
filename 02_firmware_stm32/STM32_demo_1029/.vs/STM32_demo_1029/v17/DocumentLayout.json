@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\User\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:User\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\\u5FC5\u8BFB\u8BF4\u660E.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u5FC5\u8BFB\u8BF4\u660E.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\User\\main.c",
+              "RelativeDocumentMoniker": "User\\main.c",
+              "ToolTip": "E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\User\\main.c",
+              "RelativeToolTip": "User\\main.c",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAFkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-20T08:03:53.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u5FC5\u8BFB\u8BF4\u660E.txt",
+              "DocumentMoniker": "E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\\u5FC5\u8BFB\u8BF4\u660E.txt",
+              "RelativeDocumentMoniker": "\u5FC5\u8BFB\u8BF4\u660E.txt",
+              "ToolTip": "E:\\1-\u7814\u7A76\u9662\u5DE5\u4F5C\\OCR\\code\\STM32_demo_1029\\\u5FC5\u8BFB\u8BF4\u660E.txt",
+              "RelativeToolTip": "\u5FC5\u8BFB\u8BF4\u660E.txt",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-20T08:03:50.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

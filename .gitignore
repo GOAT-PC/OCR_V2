@@ -1,0 +1,96 @@
+# =========================
+# 通用规则
+# =========================
+# 忽略操作系统垃圾文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 忽略备份 / 临时文件
+*.bak
+*.tmp
+*.temp
+*.swp
+~$*
+*.old
+
+# =========================
+# Keil MDK (STM32) 相关
+# =========================
+
+# 编译输出文件（目标文件 / 中间文件）
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.htm
+*.map
+*.lnp
+*.sct
+*.lst
+*.iex
+*.dep
+*.plg
+*.uvgui.*
+
+# 编译日志 / 报告
+*.build_log.htm
+
+# MDK 用户 GUI 配置（不同电脑差异很大，忽略）
+*.uvguix.*
+
+# 常见 Output / Listing 目录（整目录忽略）
+Output/
+output/
+Listing/
+listing/
+
+# 如果工程里有类似 Debug/Release 输出目录，也建议忽略
+Debug/
+debug/
+Release/
+release/
+
+# =========================
+# MATLAB / Simulink 相关
+# =========================
+
+# 自动保存备份文件
+*.asv
+
+# MEX 编译生成文件（平台相关，可重新生成）
+*.mexw32
+*.mexw64
+*.mexmaci64
+*.mexglx
+*.mex*
+
+# Simulink 加速 / 缓存文件
+*.slxc
+
+# Simulink 工程缓存目录
+slprj/
+work/
+
+# MATLAB 工程缓存
+*.autosave
+*.m~ 
+*.mat~ 
+
+# =========================
+# 其它常见工具产物（如有）
+# =========================
+
+# 日志文件
+*.log
+
+# 压缩包（如果只是临时拷贝用）
+*.zip
+*.rar
+*.7z
+
+# 如果有大体积中间数据，可以按需要添加，例如：
+# data/tmp/
+# data/cache/
