@@ -94,3 +94,37 @@ work/
 # 如果有大体积中间数据，可以按需要添加，例如：
 # data/tmp/
 # data/cache/
+
+# =========================
+# Node / 前端
+# =========================
+node_modules/
+05_ui/node_modules/
+dist/
+05_ui/dist/
+.vite/
+05_ui/.vite/
+
+# npm / pnpm / yarn 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# =========================
+# VS Code / 本地编辑器
+# =========================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
