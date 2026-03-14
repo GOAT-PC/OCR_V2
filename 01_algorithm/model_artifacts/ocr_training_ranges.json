@@ -1,0 +1,22 @@
+{
+  "data_file": "/workspace/OCR_V2/03_data/processed/OCR_cleaned_dataset.csv",
+  "sample_count": 3152,
+  "ranges": {
+    "OCR": [
+      1.53,
+      9.15
+    ],
+    "T": [
+      -24.26,
+      60.61
+    ],
+    "P": [
+      0.11,
+      2.09
+    ],
+    "c": [
+      357.7,
+      768.97
+    ]
+  }
+}

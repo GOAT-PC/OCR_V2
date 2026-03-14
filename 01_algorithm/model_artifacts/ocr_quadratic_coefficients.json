@@ -1,0 +1,35 @@
+{
+  "model_type": "quadratic_forward_c=f(OCR,T,P)",
+  "target": "c",
+  "features": [
+    "OCR",
+    "T",
+    "P"
+  ],
+  "term_order": [
+    "1",
+    "OCR",
+    "T",
+    "P",
+    "OCR^2",
+    "OCR*T",
+    "OCR*P",
+    "T^2",
+    "T*P",
+    "P^2"
+  ],
+  "coefficients": {
+    "1": 631.7986809973108,
+    "OCR": 4.831555149456707,
+    "T": -4.62178621561587,
+    "P": 12.754829958163965,
+    "OCR^2": 0.07265768663006075,
+    "OCR*T": 0.028445616607562747,
+    "OCR*P": -0.275871599742366,
+    "T^2": -0.004791888708153504,
+    "T*P": 0.07737212822557304,
+    "P^2": -7.516587442795399
+  },
+  "data_file": "/workspace/OCR_V2/03_data/processed/OCR_cleaned_dataset.csv",
+  "sample_count": 3152
+}

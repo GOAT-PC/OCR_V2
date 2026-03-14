@@ -1,0 +1,54 @@
+{
+  "data_file": "/workspace/OCR_V2/03_data/processed/OCR_cleaned_dataset.csv",
+  "sample_count": 3152,
+  "formula": "c = b0 + b1*OCR + b2*T + b3*P + b4*OCR^2 + b5*OCR*T + b6*OCR*P + b7*T^2 + b8*T*P + b9*P^2",
+  "coefficients": {
+    "b0": 631.7986809973108,
+    "b1": 4.831555149456707,
+    "b2": -4.62178621561587,
+    "b3": 12.754829958163965,
+    "b4": 0.07265768663006075,
+    "b5": 0.028445616607562747,
+    "b6": -0.275871599742366,
+    "b7": -0.004791888708153504,
+    "b8": 0.07737212822557304,
+    "b9": -7.516587442795399
+  },
+  "term_order": [
+    "1",
+    "OCR",
+    "T",
+    "P",
+    "OCR^2",
+    "OCR*T",
+    "OCR*P",
+    "T^2",
+    "T*P",
+    "P^2"
+  ],
+  "metrics": {
+    "MAE": 0.15731680689252459,
+    "RMSE": 0.8406369448127413,
+    "R2": 0.9996079794357698
+  },
+  "coefficient_file": "/workspace/OCR_V2/01_algorithm/model_artifacts/ocr_quadratic_coefficients.json",
+  "range_file": "/workspace/OCR_V2/01_algorithm/model_artifacts/ocr_training_ranges.json",
+  "ranges": {
+    "OCR": [
+      1.53,
+      9.15
+    ],
+    "T": [
+      -24.26,
+      60.61
+    ],
+    "P": [
+      0.11,
+      2.09
+    ],
+    "c": [
+      357.7,
+      768.97
+    ]
+  }
+}
