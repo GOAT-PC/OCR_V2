@@ -1,0 +1,36 @@
+Source files parsed:
+- OCR数据.xlsx: raw_rows=2157, parsed_rows=2156
+- OCR数据1.xlsx: raw_rows=1048576, parsed_rows=486
+- OCR数据表.xlsx: raw_rows=1417, parsed_rows=1417
+- OCR线性关系猜想验证.xlsx: raw_rows=247, parsed_rows=247
+- 单管静置OCR实验数据.xlsx: raw_rows=55, parsed_rows=54
+
+Contribution rows (after global dedup):
+   __source_file  contribution_rows
+      OCR数据.xlsx               1395
+     OCR数据1.xlsx                486
+     OCR数据表.xlsx               1217
+OCR线性关系猜想验证.xlsx                  0
+单管静置OCR实验数据.xlsx                 54
+
+Totals:
+ pre_clean_total  post_clean_total
+            4360              3152
+
+Head(10):
+ OCR     T     P      c
+1.53 29.49 1.000 506.09
+1.59 30.02 1.070 504.49
+1.61 29.92 1.050 504.92
+1.61 30.46 1.050 502.72
+1.62 29.34 1.050 507.73
+1.63 30.18 1.050 504.20
+1.64 30.74 1.050 501.50
+1.64 33.89 1.040 516.02
+1.64 33.89 1.041 516.02
+1.66 28.71 1.050 510.79
+
+Min/Max:
+      OCR      T     P       c
+min  1.53 -24.26  0.11  357.70
+max  9.15  60.61  2.09  768.97
